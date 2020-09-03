@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    justify-content: center;
+    width: 45%;
+    /* background-color: aqua; */
+    /* overflow: hidden; */
+}
+
+
+@media(max-width: 800px){
+    .container{
+        width: 90%;
+    }
+}

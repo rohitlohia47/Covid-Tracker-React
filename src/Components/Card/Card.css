@@ -1,0 +1,9 @@
+.deathCard{
+    border-bottom: 5px solid rgba(255,0,0, 0.6) !important;
+}
+.recoveryCard{
+    border-bottom: 5px solid rgba(0,255,0, 0.6);
+}
+.confirmedCard{
+    border-bottom: 5px solid rgba(0,0,255, 0.6);
+}
