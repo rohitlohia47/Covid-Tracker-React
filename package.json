@@ -1,5 +1,6 @@
 {
   "name": "covidtracker",
+  "homepage": "https://rohitlohia47.github.io/Covid-Tracker-React",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,6 +17,8 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
